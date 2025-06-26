@@ -1,0 +1,20 @@
+{
+  "name": "time-recording-service",
+  "version": "1.0.0",
+  "description": "Time Recording Microservice based on OData",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "serve": "node dist/server.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.14.1",
+    "odata-v4-server": "^0.2.13",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
