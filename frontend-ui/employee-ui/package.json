@@ -6,7 +6,7 @@
     "start": "node scripts/start.js",
     "build": "react-scripts build",
     "start:dev": "webpack serve --config webpack.config.js --mode development",
-    "start:prod": "serve -s build -l 3004",
+    "start:prod": "serve -s build -l $PORT",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
